@@ -50,6 +50,7 @@ father(someone,rahman).
 
 % rules
 grandfather(X,Y):-father(X,Z),father(Z,Y).
+son(X,Son):-father(X,Son).
 
 
 % practice no 5 (nested Structure)
